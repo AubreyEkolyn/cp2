@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   padding: 20px 100px 0px 100px;
-  background: #f3f3f3;
+  background-color:#8ECAE6;
 }
 
 /* Form */
@@ -33,4 +33,30 @@ li {
 
 img {
   margin-top: 50px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sriracha', cursive;
+  color: #023047;
+}
+
+p {
+  font-family: "Times New Roman", serif;
+  color: #023047;
+}
+
+/*Github link*/
+.gitLink{
+  padding: 5px;
+  float: right;
+  background-color: #FB8500;
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    width: 960px;
+    margin: 0 auto;
+  }
 }
